@@ -1,0 +1,38 @@
+body {
+    background-image: url("backgimg.jpg");  
+    background-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: gold;
+}
+
+div {
+    font-size: 25px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    background-color: gold;
+    width: 150px;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin: 3px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
